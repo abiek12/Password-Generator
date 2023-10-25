@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="shortcut icon" href="./images/icons8-password-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="upper-section">
+          <div class="title">
+            Generate a <br />
+            <span>random password</span>
+          </div>
+          <p>Never use an insecure password again.</p>
+          <div class="slider-container">
+            <div class="slider-label">Length:
+              <label for="slider" id="slider-value">8</label>
+            </div>
+            <input
+              type="range"
+              name=""
+              id="slider"
+              min="8"
+              max="12"
+              value="8"
+            />
+          </div>
+            <button id="generate-btn"><i class="fa fa-flash"></i>Generate Passwords</button>
+        </div>
+        <div class="seperator"></div>
+        <div class="lower-section">
+          <div class="password-container">
+            <div onclick="copyToClipboard" class="output-screen">...</div>
+            <div onclick="copyToClipboard" class="output-screen">...</div>
+            <div onclick="copyToClipboard" class="output-screen">...</div>
+            <div onclick="copyToClipboard" class="output-screen">...</div>
+          </div>
+        </div>
+        <div class="footer">Developed by<a href="https://github.com/abiek12">Abhishek p p</a></div>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
