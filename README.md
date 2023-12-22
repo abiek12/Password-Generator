@@ -2,7 +2,10 @@
 
 ## Description
 
-The Password Generator Web App is a simple and secure application developed using HTML, CSS, and JavaScript. It allows users to generate random, strong passwords with customizable length and character sets. The project is a work in progress, with ongoing learning and development. Future enhancements may include features such as easily copying generated passwords to the clipboard for immediate use.
+The Password Generator Web App is a simple and secure application developed using HTML, CSS, and JavaScript. It allows users to generate random, strong passwords with customizable length and character sets. The project is a work in progress, with on going learning and development. 
+
+**New! Copy to Clipboard**: Users can now easily copy generated passwords to the clipboard with a single click. This enhancement improves the usability of the password generator, making it more convenient for users to securely copy and use their passwords.
+
 
 ## Demo
 
